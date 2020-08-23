@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './App.scss';
 import Header from './component/Header/Header';
-import Shop from './component/shop/Shop';
+import Shop from './component/Shop/Shop';
 
 function App() {
   return (

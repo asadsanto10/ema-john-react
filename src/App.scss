@@ -21,3 +21,44 @@
     }
   }
 }
+
+.shop-container{
+  display: flex;
+  .prodect-container{
+    width: 80%;
+    margin-left: 200px;
+    border-right: 1px solid #d3d3d3;
+    padding-right: 5px;
+    .single-product {
+      display: flex;
+      border-bottom: 1px solid #d3d3d3;
+      margin: 10px;
+
+      .product-details{
+        margin-left: 25px;
+        .product-header {
+          h3 {
+            text-align: left;
+            color: tomato;
+            font-weight: 400;
+          }
+        }
+        .product-info {
+          display: flex;
+          .add-cart{
+            background-color: tomato;
+            color: #fff;
+            width: 115px;
+            height: 25px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  .cart-container{
+    width: 20%;
+  }
+}
